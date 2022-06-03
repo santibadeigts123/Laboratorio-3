@@ -1,0 +1,431 @@
+body{
+
+    font-family: sans-serif;
+    margin: 0%;
+    background-color: white;
+    
+}
+
+
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/jordan_kzqihsqmcbss1nfes0ua71dcu.jpg?itok=_coJS1bD);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0%;
+        padding: 9%;
+        height: 20px;
+        
+}
+
+
+a{
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+
+.logo{
+    height: 180px;
+    display: flex;
+   
+}
+
+nav{
+    
+    width: 100%; 
+    margin-left: 5%;
+}
+
+
+nav a{
+        
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 120%;
+        margin: 7%;
+       
+}
+
+.texto1{
+
+    font-family: 'DM Sans', sans-serif;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 5%;
+    line-height: 180%
+    
+
+}
+.caja_cabecera{
+    
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2%;
+
+   
+}
+
+
+.sub_caja{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.acomp_titulo{
+    
+   
+    float: right; 
+    margin-left: 3%;
+    padding-left: 6%;
+    max-width: min-content;
+    max-height: min-content;
+    border-left: black 3px solid;
+    display: flex;
+    
+    
+}
+
+
+h1{
+    margin-left: 2%;    
+    font-size: 50px;
+
+}
+
+
+.img_acomp1{
+        height: 230px;
+        margin-left: 5%;
+        
+}
+
+.img2{
+        height: 350px;
+        width: 400px;  
+}
+
+
+
+.piepag a{
+    color: black;
+    text-decoration: none
+}
+
+.piepag{
+
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    list-style: none;
+
+
+}
+
+footer a:hover{
+
+    color: rgb(163, 10, 10);;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+.cambio{
+
+        color: rgb(163, 10, 10);
+  }
+
+  nav a:hover{
+
+    color: rgb(163, 10, 10);
+}
+
+.articulo2{
+
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagenes_animadas1{
+
+    width: 520px;
+    height: 600px;
+    margin-top: 12%;
+    border-right: 1px solid black;
+}
+
+.imagenes_animadas2{
+
+    width: 520px;
+    height: 600px;
+    margin-top: 12%;
+    border-right: 1px solid black;
+
+}
+
+.imagenes_animadas3{
+
+    width: 520px;
+    height: 600px;
+    margin-top: 12%;
+
+}
+
+.mov_img{
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.letras_img{
+
+    background:linear-gradient(10deg, white, rgb(163, 10, 10));
+}
+
+
+#elementos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 180%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:4%;
+    margin-top: 4%;
+}
+
+.img_banda1{
+    width: 350px;
+    height: 350px;
+    margin-top: 19%;
+}
+
+.img_banda2{
+    width: 350px;
+    height: 350px;
+    margin-top: 10%;
+    
+}
+
+.nom_banda1{
+
+    font-size: 76%; 
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.nom_banda2{
+
+    font-size: 71%; 
+    font-family: 'Poppins', sans-serif;
+    width: 420px;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.mov_bandas{  
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cancha{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mov_estadio{
+    margin-top: 25%;
+}
+
+.nom_estadio{
+    font-size: 75%;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+.img_estadio{
+
+    width: 450px;
+    height: 540px;
+    border-style: ridge black;
+
+}
+
+
+.img_mercado{
+
+    width: 500px;
+    height: 300px; 
+}
+.mov_mercado{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mov_img_mercado{
+
+    margin-top: 19%;
+
+}
+
+.mov_mercado a{
+
+    margin-top: 5%;
+    font-size: 75%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.mov_mercado a:hover{
+    color: rgb(163, 10, 10);
+
+
+}
+
+.slogan{
+
+    font-size: 90%;
+    text-align: center;
+    color:white;
+}
+
+.form_contacto{
+
+    width: 400px;
+    background-color: rgb(51, 42, 42);
+    padding: 30px;
+    padding-left: 9px;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 15%;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+
+
+.form_contacto h3{
+
+    font-size: 160%;
+    margin-bottom: 12%;
+    color: white;
+    text-align: center;
+}
+
+.control{
+
+    width: 100%;
+    background-color:black; 
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.botones{
+
+    width: 40%;
+    border: none;
+    background-color: black; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 3%;
+    
+
+}
+
+#fondo_form{
+
+    background-image: url(https://c.wallhere.com/photos/93/cd/skyscraper_reflection_Chicago-238197.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ubi_botones{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones:hover{
+
+    color: rgb(163, 10, 10);
+}
+
+.cancha h2{
+    text-decoration: line-through rgb(163, 10, 10);
+}
+
+.mov_bandas h2{
+    text-decoration: line-through rgb(163, 10, 10);
+}
+
+.mov_mercado h2{
+    text-decoration: line-through rgb(163, 10, 10);
+}
+
