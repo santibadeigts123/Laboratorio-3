@@ -47,12 +47,10 @@ nav a{
         color: white;
         font-family: 'Quicksand', sans-serif;
         font-size: 120%;
-        margin: 7%;
-       
+        margin: 7%;    
 }
 
 .texto1{
-
     font-family: 'DM Sans', sans-serif;
     width: 80%;
     font-size: 20px;
@@ -60,8 +58,6 @@ nav a{
     text-align: justify;
     margin-top: 5%;
     line-height: 180%
-    
-
 }
 .caja_cabecera{
     
@@ -72,8 +68,6 @@ nav a{
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2%;
-
-   
 }
 
 
