@@ -558,11 +558,10 @@ table {
 
         margin-left: 3%;        
     }
-    
+
     #elementos{
     
         font-size: 130%; 
-       
     
       
     }
@@ -575,8 +574,9 @@ table {
 
     .img_mercado{
 
-        width: 150%;
-        height: 150%;
+        width: 100%;
+        height: 60%;
+    
     }
 
     .banda{
