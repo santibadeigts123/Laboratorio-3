@@ -7,15 +7,13 @@ body{
 }
 
 
-
 header{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         background-image: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/jordan_kzqihsqmcbss1nfes0ua71dcu.jpg?itok=_coJS1bD);
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0%;
         padding: 9%;
         height: 20px;
         
@@ -29,6 +27,12 @@ a{
 
 
 
+.logo_header{
+    height: 180px;
+    display: flex;
+   
+}
+
 .logo{
     height: 180px;
     display: flex;
@@ -38,7 +42,22 @@ a{
 nav{
     
     width: 100%; 
-    margin-left: 5%;
+
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+nav ul li{
+
+    margin: 5%;
+
 }
 
 
@@ -49,6 +68,7 @@ nav a{
         font-size: 120%;
         margin: 7%;    
 }
+
 
 .texto1{
     font-family: 'DM Sans', sans-serif;
@@ -67,9 +87,10 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 2%;
-}
 
+    margin-top: 2%;
+
+}
 
 .sub_caja{
 
@@ -185,8 +206,8 @@ footer a:hover{
 
 .imagenes_animadas3{
 
-    width: 520px;
-    height: 600px;
+    width: 480px;
+    height: 580px;
     margin-top: 12%;
 
 }
@@ -269,11 +290,13 @@ footer a:hover{
     margin-top:12%;
 }
 
-.mercado a{
+.slogan_equipa{
 
     color: black;
     margin-top: 24%;
+
 }
+
 
 .mercado a:hover{
 
@@ -396,10 +419,6 @@ footer a:hover{
     margin-right: 19%;
 }
 
-
-
-
-
 table {
     width: 180%;
     border: 1px solid #000;
@@ -459,3 +478,125 @@ table {
 }
 
 
+/* RESOLUCION 1300px */
+
+@media (max-width: 1300px){
+
+    header{
+        
+        padding: 12%;
+        justify-content: space-between;
+       
+    }
+
+    h1{
+
+        font-size: 230%;
+    }
+
+    .img_acomp1{
+        height: 50%;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .articulo2{
+
+        justify-content: center;
+    
+    }
+
+    .imagenes_animadas1{
+
+        width: 120%;
+        height: 120%;
+    }
+    
+    .imagenes_animadas2{
+    
+        width: 80%;
+        height: 80%;
+    }
+
+    .imagenes_animadas3{
+
+        width: 90%;
+        height: 100%;
+    
+    }
+
+    .partido1{
+
+    
+        font-size: 200%;
+    }
+
+    .partido2{
+
+    
+        font-size: 200%;
+    }
+
+    .partido3{
+
+    
+        font-size: 200%;
+    }
+    
+    .logo{
+        
+        height: 20%;
+        width: 20%;
+    }
+   
+    table {
+        width: 150%;
+
+     }
+
+     .tablas{
+
+        margin-left: 3%;        
+    }
+    
+    #elementos{
+    
+        font-size: 130%; 
+       
+    
+      
+    }
+
+
+    .img_cancha{
+        width: 150%;
+        height: 80%;
+    }
+
+    .img_mercado{
+
+        width: 150%;
+        height: 150%;
+    }
+
+    .banda{
+
+        margin-left: 8%;
+    }
+
+    .img_banda{
+
+        width: 80%;
+        height: 80%;
+        margin-top: 30%;
+    }
+    
+    .nom_canciones{
+    
+        margin-top: 20%;
+        text-align: center;
+        font-size: 100%;
+    }
+    
+ 
+}
