@@ -51,6 +51,15 @@ nav a{
        
 }
 
+.lista{
+    
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    
+    
+}
+
 .texto1{
 
     font-family: 'DM Sans', sans-serif;
