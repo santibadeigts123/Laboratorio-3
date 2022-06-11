@@ -6,7 +6,10 @@ body{
     
 }
 
-
+.main{
+    
+    max-width: 1300px;
+}
 
 header{
         display: flex;
@@ -73,10 +76,7 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 2%;
-    max-width: 1300px;
-
-   
+    margin-top: 2%;   
 }
 
 
