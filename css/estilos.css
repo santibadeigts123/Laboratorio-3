@@ -389,12 +389,11 @@ footer a:hover{
 }
 
 
-.cuerpo_partido1{
+.cuerpo_entero{
     flex-direction: column;
     display: flex;
     font-family: 'Oswald', sans-serif;
     margin: 2%;
-    
 }
 
 .partido1{
