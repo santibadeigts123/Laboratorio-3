@@ -392,7 +392,6 @@ footer a:hover{
 .cuerpo_partido1{
     flex-direction: column;
     display: flex;
-    font-family: 'Oswald', sans-serif;
     font-size: 7%;
     margin: 2%;
     
@@ -475,6 +474,7 @@ table {
     margin: 0%;
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
 
 }
 
