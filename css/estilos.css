@@ -389,12 +389,7 @@ footer a:hover{
 }
 
 
-.cuerpo_entero{
-    flex-direction: column;
-    display: flex;
-    font-family: 'Oswald', sans-serif;
-    margin: 2%;
-}
+
 
 .partido1{
 
@@ -435,13 +430,6 @@ table {
     padding: 0.3em;
  }
 
- .cuerpo_partido2{
-    flex-direction: column;
-    display: flex;
-    font-family: 'Oswald', sans-serif;
-    border-top: ridge black;
-    margin:3%;   
-}
 
 .partido2{
 
@@ -473,6 +461,9 @@ table {
     margin: 0%;
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10%;
+    margin: 2%;
 
 }
 
