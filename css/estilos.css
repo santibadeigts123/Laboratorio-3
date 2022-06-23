@@ -766,13 +766,16 @@ table {
     }
    
     table {
-        width: 150%;
+        width: 130%;
+        font-size: 125%;
 
      }
 
-     .tablas{
+     .tabla2{
 
-        margin-left: 3%;        
+        margin-left: 28%;
+        
+               
     }
 
     #elementos{
