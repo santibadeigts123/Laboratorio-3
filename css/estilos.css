@@ -496,11 +496,6 @@ table {
     display: flex;
     flex-direction: column;
     margin-bottom: 6%;
-    
-    
-    
-    
- 
 }
 
 .personajes{
@@ -512,7 +507,6 @@ table {
     margin-top: 7%;
     margin-left: 2%;
     margin-right: 2%;   
-
 }
 
 .parrafos{
@@ -817,5 +811,20 @@ table {
         font-size: 100%;
     }
     
- 
+    .nombres_personajes{
+    
+        
+        font-size: 160%;
+        margin-top: 2%;
+        justify-content:flex-end;
+        margin-top: 3%;
+        
+    }
+
+    .personajes{
+
+        font-size: 100%;
+        font-weight: bolder;
+    }
+
 }
