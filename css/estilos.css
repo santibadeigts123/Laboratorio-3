@@ -36,7 +36,6 @@ a{
 .logo{
     height: 180px;
     display: flex;
-   
 }
 
 nav{
@@ -388,22 +387,13 @@ footer a:hover{
 }
 
 
-.cuerpo_partido1{
-    flex-direction: column;
-    display: flex;
-    font-size: 7%;
-    margin: 2%;
-    
-}
-
-.partido1{
+.partidos{
 
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1%;
-    font-size: 360%;
+    justify-content: center;
+    font-size: 300%;
+    margin-top: 3%;
 }
 
 .tablas{
@@ -411,17 +401,12 @@ footer a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2%;
-    
+    margin: 1%;
 }
 
-.tabla2{
-    margin-right: 19%;
-}
-
-table {
-    width: 180%;
-    border: 1px solid #000;
+table{
+    width: 40%;
+    border: 2px solid #000;
     font-size: 20px;
  }
  th, td {
@@ -438,31 +423,7 @@ table {
 
 
 
-.partido2{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2%;
-    font-size: 360%;
-
-}
-
-.partido3{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 8%;
-    margin-left: 3%;
-    font-size: 360%;
-}
-
-
-
-.cuerpo_entero{
+.fondo_partidos{
 
     background-image: url(https://fondosmil.com/fondo/3057.png);
     background-repeat: no-repeat;
@@ -470,6 +431,7 @@ table {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -652,8 +614,10 @@ table {
 .orden_columna_imagenes{
     display: flex;
     flex-direction: column;
-    margin: 3%;
-
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 8%;
 }
 .orden_columna_imagenes2{
     display: flex;
@@ -671,6 +635,15 @@ table {
     justify-content: space-between;
     align-items: center;
 
+}
+
+#fondo_imagenes{
+
+    background-image: url(https://c.wallhere.com/photos/93/cd/skyscraper_reflection_Chicago-238197.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
 }
 
 .menu_hamb{
@@ -730,41 +703,16 @@ table {
     
     }
 
-    .partido1{
 
-    
-        font-size: 200%;
-    }
-
-    .partido2{
-
-    
-        font-size: 200%;
-    }
-
-    .partido3{
-
-    
-        font-size: 200%;
+    .partidos{
+        font-size: 150%;
+        font-weight: bolder;
     }
     
     .logo{
         
         height: 20%;
         width: 20%;
-    }
-   
-    table {
-        width: 130%;
-        font-size: 125%;
-
-     }
-
-     .tabla2{
-
-        margin-left: 28%;
-        
-               
     }
 
     #elementos{
@@ -919,4 +867,44 @@ table {
 
         font-size: 11px;
     }
+
+    .partidos{
+        font-size: 80%;
+        font-weight: bolder;
+    }
+
+    table{
+        width: 20%;
+        border: 1px solid #000;
+        font-size: 11px;
+        font-weight: bolder;
+     }
+     th, td {
+        width: 15%;
+     }
+    
+     .form_contacto{
+
+        width: 350px;
+        
+    }
+    #fondo_imagenes{
+        height: 75%;
+    }
+    .orden_columna_imagenes{
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+        margin-top: 30%;
+    }
+    .orden_columna_imagenes2{
+    
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 30%;
+        margin-top: 20%;
+    }
+   
+    
+    
 }
