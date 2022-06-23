@@ -904,7 +904,73 @@ table{
         margin-bottom: 30%;
         margin-top: 20%;
     }
+
+    .personajes{
+        font-size: 70%;
+        margin-top: 7%;
+        margin-left: 2%;
+        margin-right: 2%;   
+    }
+    
+    .parrafos{
+        width: 700%;
+    }
+    
+    .foto_jordan{
+        width: 80%;
+        height: 18%; 
+           
+    }
+    
+    
+    .foto_pippen{
+        width: 75%;
+        height: 15%;
+         
+    }
+    
+    .foto_roddman{
+        width: 85%;
+        height: 14%;
+        
+    }
+    
+    .foto_jackson{
+        width: 80%;
+        height: 15%;
+        
+    
+    }
+    
+    .parrafos2{
+        width: 700%;
+    }
+    
+    .nombres_personajes{
+        
+        justify-content: space-around;
+        font-size: 100%;
+        
+    }
+    
+    .trofeos_obtenidos{
+        width: 10%;
+    }
+    
+    .imagen_trofeo{
+
+        width: 70%;
+        height:70%;
+    }
+
+    .ingreso_galeria{
+    
+        text-align: center;
+    }
    
+    .mod_link{
+        font-size: 100%;
+    }
     
     
 }
