@@ -14,8 +14,7 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         padding: 9%;
-        height: 20px;
-        
+        height: 20px;   
 }
 
 
@@ -72,7 +71,7 @@ nav a{
 
 
 .texto1{
-    font-family: 'DM Sans', sans-serif;
+
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -80,6 +79,8 @@ nav a{
     margin-top: 5%;
     line-height: 180%
 }
+
+
 .caja_cabecera{
     
     font-family: 'DM Sans', sans-serif;
@@ -672,19 +673,13 @@ table {
 
 }
 
+.menu_hamb{
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#check{
+    display: none;
+}
 
 
 
@@ -827,4 +822,101 @@ table {
         font-weight: bolder;
     }
 
+}
+
+
+/* RESOLUCION 480px */
+
+@media (max-width: 480px){
+
+   
+    header{
+            
+            height: 100%;   
+    }
+
+    a{
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .logo_header{
+        
+        width: 200px;
+        height: 130px;
+        display: flex;
+        float: left; 
+        display: block
+    }
+
+
+    nav{
+        
+        width: 100%; 
+
+    }
+
+    nav ul{
+        display: none;
+        float: right;
+    }
+
+    nav ul li{
+        display: inline-block;
+        
+    }
+
+    input:checked  ~ ul{
+        display:block;
+    }
+
+    input {
+        display: none;
+    }
+
+    .menu_hamb{
+
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+
+      }
+
+      nav a{
+
+        font-size: 90%;
+        margin: 5%;    
+    }  
+
+    .control{
+
+        display: block;
+        
+    }
+    
+    #fondo_form{
+        height: 75%;
+    }
+
+    .caja_cabecera{
+
+        font-size: 35%;
+    }
+    
+    .texto1{
+
+        font-size: 15px;
+    }
+
+    .letras_img{
+
+        font-size: 11px;
+    }
 }
