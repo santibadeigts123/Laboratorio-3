@@ -10,7 +10,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/jordan_kzqihsqmcbss1nfes0ua71dcu.jpg?itok=_coJS1bD);
+        background-image: url(../imagenes/fondo_header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 9%;
@@ -229,7 +229,7 @@ footer a:hover{
 
 .fondo_variedades{
 
-    background-image: url(https://fondosmil.com/fondo/3057.png);
+    background-image: url(../imagenes/fondo_body.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -366,7 +366,7 @@ footer a:hover{
 
 #fondo_form{
 
-    background-image: url(https://c.wallhere.com/photos/93/cd/skyscraper_reflection_Chicago-238197.jpg!d);
+    background-image: url(../imagenes/skyscraper_reflection_Chicago-238197.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -425,7 +425,7 @@ table{
 
 .fondo_partidos{
 
-    background-image: url(https://fondosmil.com/fondo/3057.png);
+    background-image: url(../imagenes/fondo_body.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -446,7 +446,7 @@ table{
 .cuerpo_entero2{
 
     font-family: 'DM Sans', sans-serif;
-    background-image: url(https://fondosmil.com/fondo/3057.png);
+    background-image: url(../imagenes/fondo_body.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -639,7 +639,7 @@ table{
 
 #fondo_imagenes{
 
-    background-image: url(https://c.wallhere.com/photos/93/cd/skyscraper_reflection_Chicago-238197.jpg!d);
+    background-image: url(../imagenes/skyscraper_reflection_Chicago-238197.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
